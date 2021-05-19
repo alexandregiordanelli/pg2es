@@ -5,6 +5,7 @@ services:
     ports:
       - 15672:15672
   app:
+    # build: .
     image:
       giordanelli/pg2es
     restart: on-failure

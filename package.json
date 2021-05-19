@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@elastic/app-search-javascript": "^7.8.0",
+    "@elastic/app-search-node": "^7.12.0",
     "@supabase/supabase-js": "^1.11.13",
     "amqplib": "^0.7.1"
   }
